@@ -1,5 +1,7 @@
+# OS
 .DS_Store
 
+# Node.js
 node_modules/
 logs
 *.log
@@ -10,12 +12,26 @@ lerna-debug.log*
 .yarn-integrity
 .npm
 
-.eslintcache
-
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
 
+# Next.js
 .next
+out
 .vercel
-.env*.local
+
+# Env files
 .env
+.env*.local
+
+# ESLint
+.eslintcache
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Optional IDEs
+.vscode/
+.idea/
